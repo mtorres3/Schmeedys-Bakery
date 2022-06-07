@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Schmeedy's Bakery</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class='nav-bar'>
+            <h1 id='logo-text'>Schmeedy's Bakery</h1>
+            <button id='order-btn'>Order Now</button>
+            <h2 class='nav'>Contact Us</h2>
+            <h2 class='nav'>Locations</h2>
+            <h2 class='nav'>Menu</h2>
+        </div>
+
+        <div class='banner-bg'>
+            <img src='./images/cookie-banner.jpeg' class='banner-img'>
+        </div>
+
+        <div id='menu'>
+            <h1 id='menu-title'>Check Out Our Menu Items!</h1>
+            <hr>
+            <div id='menu-types'>
+                <h2 class='menu-type' onclick="menuTypeSelection(event)">Cookies</h2>
+                <h2 class='menu-type' onclick="menuTypeSelection(event)">Cupcakes</h2>
+                <h2 class='menu-type' onclick="menuTypeSelection(event)">Cakes</h2>
+                <h2 class='menu-type' onclick="menuTypeSelection(event)">Breads</h2>
+            </div>
+            <hr>
+            <div id='cookie-cards'>
+                <figure class='menu-card'>
+                    <img src='./images/sugar-cookie.jpeg' class='item-img'>
+                    <figcaption>
+                        <h2>Sugar | $1.99</h2>
+                        <p>Try one of our fantastic sugar cookies that are perfect for people with a sweet tooth!</p>
+                    </figcaption>
+                </figure>
+                <figure class='menu-card'>
+                    <img src='./images/pb-cookies.jpeg' class='item-img'>
+                    <figcaption>
+                        <h2>Peanut Butter | $1.99</h2>
+                        <p>Try one of our tasty peanut butter cookies that are perfect for the nuts of the world!</p>
+                    </figcaption>
+                </figure>
+                <figure class='menu-card'>
+                    <img src='./images/choc-chip-cookie.jpeg' class='item-img'>
+                    <figcaption>
+                        <h2>Chocolate Chip | $1.49</h2>
+                        <p>Try one of our amazing chocolate chip cookies that are sure to melt in your mouth!</p>
+                    </figcaption>
+                </figure>
+                <figure class='menu-card'>
+                    <img src='./images/double-choc-cookie.jpeg' class='item-img'>
+                    <figcaption>
+                        <h2>Double Chocolate Chip | $1.99</h2>
+                        <p>Try one of our delicious double chocolate chip cookies that are perfect for those fudge lovers!</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div id='cupcake-cards'>
+                <figure class='menu-card'>
+                    <img src='./images/choc-cupcake.jpeg' class='item-img'>
+                    <figcaption>
+                        <h2>Chocolate | $3.99</h2>
+                        <p>Try one of our moist chocolate cupcakes that are rich and melt in your mouth!</p>
+                    </figcaption>
+                </figure>
+                <figure class='menu-card'>
+                    <img src='./images/pb-cupcake.jpeg' class='item-img'>
+                    <figcaption>
+                        <h2>Peanut Butter | $3.99</h2>
+                        <p>Try one of our tasty peanut butter cupcakea that are perfect for the nuts of the world!</p>
+                    </figcaption>
+                </figure>
+                <figure class='menu-card'>
+                    <img src='./images/oreo-cupcake.jpeg' class='item-img'>
+                    <figcaption>
+                        <h2>Oreo | $3.99</h2>
+                        <p>Try one of our amazing oreo cupcakes for when you don't know if you want chocolcate or vanilla!</p>
+                    </figcaption>
+                </figure>
+                <figure class='menu-card'>
+                    <img src='./images/vanilla-cupcake.jpeg' class='item-img'>
+                    <figcaption>
+                        <h2>Vanilla | $3.99</h2>
+                        <p>Try one of our delicious vanilla cupcakes that are perfect for when you just need something sweet!</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div id='cake-cards'>
+                <figure class='menu-card'>
+                    <img src='./images/cookie-cake.jpeg' class='item-img'>
+                    <figcaption>
+                        <h2>Cookie | $12.99</h2>
+                        <p>Try one of our yummy cookie cakes that are perfect for people who love BIG cookies!</p>
+                    </figcaption>
+                </figure>
+                <figure class='menu-card'>
+                    <img src='./images/ice-cream-cake.jpeg' class='item-img'>
+                    <figcaption>
+                        <h2>Ice Cream| $15.99</h2>
+                        <p>Try one of our cool ice cream cakes that are perfect for when it's hot outside!</p>
+                    </figcaption>
+                </figure>
+                <figure class='menu-card'>
+                    <img src='./images/strawberry-cake.jpeg' class='item-img'>
+                    <figcaption>
+                        <h2>Strawberry Shortcake | $19.99</h2>
+                        <p>Try one of our amazing strawberyy shortcakes for when you're feeling a little fruity!</p>
+                    </figcaption>
+                </figure>
+                <figure class='menu-card'>
+                    <img src='./images/choc-cake.jpeg' class='item-img'>
+                    <figcaption>
+                        <h2>Double Chocolate | $13.99</h2>
+                        <p>Try one of our delicious double chocolate cakes that are perfect for those fudge lovers!</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div id='bread-cards'>
+                <figure class='menu-card'>
+                    <img src='./images/pumpkin-bread.jpeg' class='item-img'>
+                    <figcaption>
+                        <h2>Pumpkin | $6.99</h2>
+                        <p>Try one of our sweet pumpkin loaves that are perfect for people with a sweet tooth!</p>
+                    </figcaption>
+                </figure>
+                <figure class='menu-card'>
+                    <img src='./images/potato-bread.jpeg' class='item-img'>
+                    <figcaption>
+                        <h2>Potato | $4.99</h2>
+                        <p>Try one of our tasty potato loaves that are perfect for the couch potatoes!</p>
+                    </figcaption>
+                </figure>
+                <figure class='menu-card'>
+                    <img src='./images/rainbow-bread.jpeg' class='item-img'>
+                    <figcaption>
+                        <h2>Rainbow | $3.49</h2>
+                        <p>Try one of our colorful rainbow loaves that are sure to brighten up your day!</p>
+                    </figcaption>
+                </figure>
+                <figure class='menu-card'>
+                    <img src='./images/rye-bread.jpeg' class='item-img'>
+                    <figcaption>
+                        <h2>Rye | $4.99</h2>
+                        <p>Try one of our delicious rye loaves that are moist and spongey!</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </body>
+    <script src='./menu.js'></script>
+</html>

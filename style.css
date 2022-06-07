@@ -1,0 +1,125 @@
+html {
+  background-color: #eff8e2;
+  font-family: "Copperplate", Fantasy;
+}
+
+/* Menu Styles */
+
+hr {
+  width: 90%;
+  color: #50514f;
+}
+
+figcaption {
+  text-align: center;
+  color: white;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.banner-bg {
+  background-color: #bc8034;
+  padding: 0.2rem;
+  padding-bottom: 0.1rem;
+  align-content: center;
+}
+
+.banner-img {
+  display: cover;
+  max-width: 100%;
+}
+
+.item-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #50514f;
+}
+
+.menu-card {
+  display: flex;
+  flex-direction: row;
+  background-color: #bc8034;
+  border-radius: 5px;
+  padding: 2%;
+  margin: 2%;
+}
+
+.menu-type {
+  display: inline;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.menu-type:hover {
+  color: #bc8034;
+}
+
+.nav {
+  display: inline-flex;
+  font-family: "Smooch", cursive;
+  color: #1b998b;
+  float: right;
+  margin-right: 2em;
+  margin-top: 1em;
+}
+
+.nav-bar {
+  align-items: center;
+}
+
+#cookie-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+}
+
+#cupcake-cards,
+#cake-cards,
+#bread-cards {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+}
+
+#logo-text {
+  font-family: "Smooch", cursive;
+  margin-left: 2%;
+  color: #1b998b;
+  display: inline-flex;
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2%;
+  color: #1b998b;
+}
+
+#menu-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+#menu-types {
+  display: flex;
+  justify-content: center;
+}
+
+#order-btn {
+  background-color: #bc8034;
+  color: white;
+  float: right;
+  margin-right: 2em;
+  margin-top: 1.5em;
+  padding: 0.75em;
+  border-radius: 1em;
+}
